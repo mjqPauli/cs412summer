@@ -1,0 +1,5 @@
+
+<app-user-input (emitter)="getWeather($event)"></app-user-input>
+<div *ngIf="data">
+  <app-query-display [data]="data"></app-query-display>
+</div>
